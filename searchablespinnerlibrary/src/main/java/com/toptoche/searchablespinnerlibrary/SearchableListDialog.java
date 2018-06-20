@@ -184,6 +184,13 @@ public class SearchableListDialog extends DialogFragment implements
         super.onPause();
         dismiss();
     }
+        
+    @Override
+    public void onStop()
+    {
+        super.onStop();
+        dismiss();
+    }
 
     @Override
     public boolean onQueryTextSubmit(String s) {
