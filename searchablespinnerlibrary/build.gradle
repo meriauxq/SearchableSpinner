@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/meriauxq/SearchableSpinner'
     gitUrl = 'https://github.com/meriauxq/SearchableSpinner.git'
 
-    libraryVersion = '1.0'
+    libraryVersion = '1.1'
 
     developerId = 'miteshpithadiya'
     developerName = 'Mitesh Pithadiya'
@@ -35,7 +35,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 8
-        versionName "1.0"
+        versionName "1.1"
     }
     buildTypes {
     }
@@ -46,7 +46,7 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 
 apply plugin: 'com.jfrog.bintray'
 
-version = "1.0"
+version = "1.1"
 
 bintray {
     user = properties.getProperty("bintray.user")
